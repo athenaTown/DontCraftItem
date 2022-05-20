@@ -1,0 +1,15 @@
+name: DontCraftItem
+main: skh6075\dontcraftitem\Loader
+author: skh6075
+version: 1.0.0
+api: 4.0.0
+website: https://github.com/skh6075
+
+commands:
+  조합밴:
+    description: 조합밴 명령어입니다.
+    permission: craftitem.bypass
+
+permissions:
+  craftitem.bypass:
+    default: op
